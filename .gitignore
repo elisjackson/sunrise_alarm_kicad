@@ -1,0 +1,12 @@
+*.bak
+*.kicad_prl
+*.tmp
+*.swp
+*.net
+*.xml
+*.log
+fp-info-cache
+*.bck
+*.zip
+*.lck
+*auto_saved_files*

@@ -1,0 +1,129 @@
+(footprint "SPST_Amazon"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x4.1mm")
+	(tags "DIP Switch SPST Piano 7.62mm 300mil")
+	(property "Reference" "REF**"
+		(at 5 -5.2 0)
+		(layer "F.SilkS")
+		(uuid "afbe95da-7f77-4f94-ba39-ca16da0e447f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPST_Amazon"
+		(at 3.81 3.11 0)
+		(layer "F.Fab")
+		(uuid "d06852d6-add1-4cc0-b774-da3247701ecf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98ada50b-8d8f-4531-b237-9529f59be14f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5640e424-fdb5-4183-b253-fef7adac0784")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.1 -4.05)
+		(end 11.3 4.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9157d5c0-aeae-428a-903d-1446433dc07e")
+	)
+	(fp_rect
+		(start -2 -3.95)
+		(end 11.2 3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ca4ccaba-1fc2-4b49-a29e-bf0339d93b5d")
+	)
+	(fp_rect
+		(start -2.4 -4.25)
+		(end 11.6 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "864e71c6-346c-4924-8a2d-544c8ba1295e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 0 0)
+		(layer "F.Fab")
+		(uuid "f4db016d-3d5e-4c3b-8c58-23212e15266b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.9 2.8)
+		(drill oval 1 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "65a8faac-6c81-47b1-9fbc-702762531697")
+	)
+	(pad "2" thru_hole roundrect
+		(at 4.7 0)
+		(size 1.9 2.8)
+		(drill oval 1 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "6b6f7ba5-7e88-4545-8efa-7d11c70e55e1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
